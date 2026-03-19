@@ -172,7 +172,6 @@ footer {
 footer ul{
     display: flex;
     gap: 3rem;
-    text-decoration: none;
     list-style: none;
 }
 footer .menu-footer{
