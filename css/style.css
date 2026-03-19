@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(28, 28, 28);
+    height: 180px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 4rem;
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/fundoha.png");
+    /* background-color:rgb(234, 235, 235); */
+    margin: 0;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+        color: rgb(227, 227, 227);
+        text-decoration: none;
+        margin-right: 3rem;
+        font-size: 2rem;
+}
+
+a:visited{
+        color: rgb(228, 228, 228);
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+
+    padding-left: 1rem;
+    text-align: left;
+
+
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+}
