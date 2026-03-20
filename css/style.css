@@ -1,39 +1,63 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 header{
-    background-color: rgb(28, 28, 28);
-    height: 180px;
+    background: linear-gradient(to bottom, rgba(106, 52, 29, 0.7), rgba(0, 0, 0, 0.7)), url("../img/crois.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     margin-top: 0;
-    padding-left: 4rem;
-    font-size: 2.3rem;
+    font-size: 4rem;
     color: #fff;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../img/fundoha.png");
-    /* background-color:rgb(234, 235, 235); */
     margin: 0;
-    height: 100vh;
+    height: 100%;
+    max-width: 100%;
 }
 
 ul {
     display: flex;
     justify-content: center;
+    padding: 0%;
+    list-style: none;
 }
 
 a {
-        color: rgb(227, 227, 227);
-        text-decoration: none;
-        margin-right: 3rem;
-        font-size: 2rem;
+     color: rgb(227, 227, 227);
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 2rem;
+    position: relative;
 }
 
 a:visited{
         color: rgb(228, 228, 228);
+}
+
+a::before{
+    content: "•";
+    position: absolute;
+    left: -20px;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+a:hover::before{
+    opacity: 1;
 }
 
 main {
@@ -41,15 +65,54 @@ main {
     padding: 20px;
 }
 
+.card {
+    display: flex;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.card .lado1, .lado2{
+    flex: 1;
+}
+
+.lado2{
+    display: flex;
+    justify-content: center;
+}
+
+.lado2 img{
+    width: 612px;
+    height: 406px;
+    object-fit: cover;
+    margin-top: 150px;
+}
+
+.lado1{
+    margin-left: 4rem;
+}
+
+.cont{
+    margin-bottom: 3rem;
+}
+
+.lado1 h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 7000;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.lado1 p{
+    margin:0;
+}
+
 footer {
     background-color: rgb(27, 27, 27);
     color: #fff;
-
-    padding-left: 1rem;
-    text-align: left;
-
-
-    width: 100%;
-    position:fixed;
+    padding: 1rem;
+    text-align: center;
     bottom: 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
