@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e8f5e9;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/fundoreptil.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: url("../img/fundoha3.jpg");
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.card {
+  display: flex;
+  padding: 30px;
+  background: #1b2e1f;
+
+  max-width: 1700px; /* controla a largura */
+  margin: 40px auto; /* centraliza horizontalmente */
+  border-radius: 20px; /* opcional: deixa mais bonito */
+}
+
+.lado1,
+.lado2 {
+  flex: 1;
+}
+.profile img {
+  width: 200px;
+  border-radius: 20px;
+  border: 3px solid #4caf50;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 5px 0;
+}
+
+.card2 {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.bloco {
+  background: #1b2e1f;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.bloco:hover {
+  transform: scale(1.05);
+  background: #2e4a33;
+}
+
+.bloco img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 20px;
+}
