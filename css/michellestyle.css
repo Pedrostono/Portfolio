@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.status {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e293b;
+    display: inline-block;
+}
+
+#estado {
+    font-size: 24px;
+    font-weight: bold;
+}
